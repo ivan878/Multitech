@@ -4,26 +4,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Multitech</title>
+    <title>GesCon</title>
 </head>
 <body>
-    <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand">Multitech</a>
-        <form class="form-inline">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Recherche</button>
-        </form>
-      </nav>
-    <!-- <div class="container-fluid">
-        <div class="row">
-            <div class="container">
-                    <div class="row">
-
-                    </div>
+    <div class="navbar">
+        <div class="nav-pos ">
+            <div><h2 class="ds-text">GesCon</h2></div>
+            <div class=" row ph-user">
+                <div><h8 class="ds-text r-space">Nom User</h8></div>
+                <div><img src="images/icon.jpg" class="rounded-circle size-image" alt="Cinque Terre"></div>
             </div>
         </div>
-    </div> -->
+    </div>
+    <div class="content">
+    <section >
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="home-tab" data-toggle="tab" href="" role="tab" aria-controls="home" aria-selected="true">Demander Un congé</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Consulté ses congé</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Compte</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+              <div>
+                <!-- demande de Congés -->
+            <section class="" style="background-color: #63a7ff;">
+              <div class="container">
+                <div class="row d-flex justify-content-center align-items-center">
+                  <div class="col-lg-8 col-xl-6">
+                    <div class="card rounded-3">
+                      <div class="card-body p-4 p-md-5">
+                        <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2">Remplir le formulaire</h3>
+                        <form class="px-md-2">
+                          <div class="form-outline mb-4">
+                            <label class="form-label" for="form3Example1q">Nom</label>
+                            <input type="text" id="form3Example1q" class="form-control" />
+                          </div>
+                          <div class="mb-3">
+                            <label for="" class="form-label">Choisir le motif</label>
+                            <select class="lect" aria-label="Default select example">
+                              <option selected>Open this select menu</option>
+                              <option value="1">One</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                            </select>
+                          </div>
+                          <div class="mb-3">
+                            <label for="" class="form-label">entre la description</label>
+                            <textarea class="form-control" name="" id="" rows="3"></textarea>
+                          </div>
+                          <button type="submit" class="btn btn-success btn-lg mb-1">Soumettre</button>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            </div>
+              
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+              <!-- consulté ses Congés -->
+              <section class="" style="background-color: #63a7ff;">
+                <div class="container tab1">
+                  <table>
+                    <tr>
+                      <th>Motif</th>
+                      <th>Description</th>
+                      <th>decision</th>
+                    </tr>
+                    <tr>
+                      <td>Maladie</td>
+                      <td>Je suis malade et je souffre egalement de paludisme</td>
+                      <td>validé</td>
+                    </tr>
+                </table>
+                </div>
+              </section>
+            </div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+          </div>
+    </section>
+</div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  

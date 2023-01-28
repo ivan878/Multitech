@@ -1,0 +1,64 @@
+/* style de la page de login */
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+
+/* style de la home page */
+
+.content{
+    max-width: 80%;
+    margin: auto;
+    margin-top: 5%;
+
+}
+.navbar{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(0, 126, 230);
+    display: block;
+    position: absolute;
+}
+.ds-text{
+    color: white;
+   
+}
+.nav-pos{
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+   align-content: space-between;
+   width: 90%;
+    
+}
+.r-space{
+    margin-right: 15px;
+}
+.size-image{
+    height: 50px;
+    width: auto;
+    cursor: pointer;
+}
+.ph-user{
+    align-items: center;
+}
+.lect{
+    border: none;
+    background-color: rgb(240, 240, 240);
+    padding: 10px;
+}
+.tab1{
+    padding: 15px;
+}
